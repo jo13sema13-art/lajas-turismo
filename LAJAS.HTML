@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Descubre los atractivos, paisajes, cultura y gastronomía de Lajas, Chota, Cajamarca.">
+  <title>Lajas Turístico | Descubre nuestra tierra</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="ESTILOS.CSS">
+</head>
+
+<body>
+
+<header class="header" id="inicio">
+  <nav class="navbar container">
+
+    <a class="brand" href="#inicio">
+      <span class="brand-mark">L</span>
+      <span>LAJAS <small>TURÍSTICO</small></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <div class="nav-links" id="navLinks">
+      <a href="#inicio">Inicio</a>
+      <a href="#atractivos">Atractivos</a>
+      <a href="#mapa">Mapa</a>
+      <a href="#gastronomia">Gastronomía</a>
+      <a href="#cultura">Cultura</a>
+    </div>
+
+  </nav>
+</header>
+
+<main>
+
+  <!-- PORTADA -->
+  <section class="hero">
+    <div class="container hero-content">
+
+      <p class="eyebrow">CHOTA · CAJAMARCA · PERÚ</p>
+
+      <h1>
+        Descubre la belleza
+        <span>de Lajas</span>
+      </h1>
+
+      <p class="hero-description">
+        Naturaleza, cultura y tradición te esperan en nuestra tierra.
+      </p>
+
+      <a class="button button-gold" href="#atractivos">
+        Explorar atractivos →
+      </a>
+
+    </div>
+  </section>
+
+  <!-- PRESENTACIÓN -->
+  <section class="intro container">
+
+    <p class="section-kicker">BIENVENIDOS</p>
+
+    <h2>Un destino por descubrir</h2>
+
+    <p>
+      Conoce los paisajes, las costumbres y los lugares
+      especiales del distrito de Lajas, provincia de
+      Chota, Cajamarca.
+    </p>
+
+  </section>
+
+  <!-- ATRACTIVOS -->
+  <section class="section container" id="atractivos">
+
+    <div class="section-heading">
+      <div>
+        <p class="section-kicker">EXPLORA LA ZONA</p>
+        <h2>Atractivos turísticos</h2>
+      </div>
+
+      <p>Encuentra un lugar para tu próxima aventura.</p>
+    </div>
+
+    <div class="filters">
+      <button class="filter active" data-filter="todos">Todos</button>
+      <button class="filter" data-filter="naturaleza">Naturaleza</button>
+      <button class="filter" data-filter="cultura">Cultura</button>
+      <button class="filter" data-filter="historia">Historia</button>
+    </div>
+
+    <div class="cards" id="attractionCards">
+
+      <article class="place-card" data-category="naturaleza">
+
+        <img src="https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=85" alt="Paisaje natural">
+
+        <div class="card-body">
+          <span class="tag">Naturaleza</span>
+          <h3>Piedra Pistola</h3>
+
+          <p>
+            Un lugar emblemático para conocer y fotografiar.
+            Confirma las indicaciones locales antes de visitarlo.
+          </p>
+
+          <a class="text-link" target="_blank" rel="noopener"
+          href="https://www.google.com/maps/search/?api=1&query=Piedra+Pistola+Lajas+Chota+Cajamarca">
+            Ver ubicación en Maps ↗
+          </a>
+        </div>
+
+      </article>
+
+      <article class="place-card" data-category="cultura">
+
+        <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=900&q=85" alt="Arquitectura tradicional">
+
+        <div class="card-body">
+          <span class="tag">Cultura</span>
+          <h3>Plaza e iglesia de Lajas</h3>
+
+          <p>
+            Un espacio para apreciar el ambiente del distrito
+            y conocer parte de su vida cotidiana.
+          </p>
+
+          <a class="text-link" target="_blank" rel="noopener"
+          href="https://www.google.com/maps/search/?api=1&query=Plaza+de+Armas+Lajas+Chota+Cajamarca">
+            Ver ubicación en Maps ↗
+          </a>
+        </div>
+
+      </article>
+
+      <article class="place-card" data-category="naturaleza">
+
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=85" alt="Montañas y laguna">
+
+        <div class="card-body">
+          <span class="tag">Naturaleza</span>
+          <h3>Paisajes rurales</h3>
+
+          <p>
+            Descubre los campos, caminos y panoramas
+            de las comunidades del distrito.
+          </p>
+
+          <a class="text-link" target="_blank" rel="noopener"
+          href="https://www.google.com/maps/search/?api=1&query=Paisajes+rurales+Lajas+Chota+Cajamarca">
+            Explorar en Maps ↗
+          </a>
+        </div>
+
+      </article>
+
+      <article class="place-card" data-category="historia">
+
+        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=900&q=85" alt="Montañas rocosas">
+
+        <div class="card-body">
+          <span class="tag">Historia y territorio</span>
+          <h3>Lugares por descubrir</h3>
+
+          <p>
+            Incorpora aquí otros sitios de interés con
+            información y fotografías verificadas.
+          </p>
+
+          <a class="text-link" target="_blank" rel="noopener"
+          href="https://www.google.com/maps/search/?api=1&query=Lugares+turisticos+Lajas+Chota+Cajamarca">
+            Buscar lugares en Maps ↗
+          </a>
+        </div>
+
+      </article>
+
+    </div>
+
+    <p class="notice">
+      Nota: las fotografías son ilustrativas. Reemplázalas
+      por imágenes reales de Lajas y verifica las ubicaciones.
+    </p>
+
+  </section>
+
+  <!-- GOOGLE MAPS -->
+  <section class="map-section" id="mapa">
+
+    <div class="container map-layout">
+
+      <div class="map-copy">
+
+        <p class="section-kicker">PLANIFICA TU VISITA</p>
+
+        <h2>Encuentra Lajas en el mapa</h2>
+
+        <p>
+          Consulta la ubicación general del distrito y
+          prepara tu recorrido. Para llegar a un atractivo
+          específico, utiliza el enlace de su tarjeta.
+        </p>
+
+        <a class="button button-red"
+        target="_blank" rel="noopener"
+        href="https://www.google.com/maps/search/?api=1&query=Lajas+Chota+Cajamarca+Peru">
+          Abrir Google Maps ↗
+        </a>
+
+      </div>
+
+      <div class="map-frame">
+
+        <iframe
+          title="Mapa de Lajas"
+          src="https://www.google.com/maps?q=Lajas%2C%20Chota%2C%20Cajamarca%2C%20Per%C3%BA&output=embed"
+          loading="lazy"
+          allowfullscreen>
+        </iframe>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- GASTRONOMÍA Y CULTURA -->
+  <section class="section container feature-grid">
+
+    <article class="feature" id="gastronomia">
+
+      <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85" alt="Gastronomía">
+
+      <div>
+        <p class="section-kicker">SABORES DE NUESTRA TIERRA</p>
+
+        <h2>Gastronomía</h2>
+
+        <p>
+          Presenta los platos típicos, productos locales
+          y sabores que forman parte de la identidad de Lajas.
+        </p>
+      </div>
+
+    </article>
+
+    <article class="feature" id="cultura">
+
+      <img src="https://images.unsplash.com/photo-1514526254575-5f8f2e4b6a1f?auto=format&fit=crop&w=1000&q=85" alt="Celebración cultural">
+
+      <div>
+        <p class="section-kicker">IDENTIDAD Y TRADICIÓN</p>
+
+        <h2>Cultura y costumbres</h2>
+
+        <p>
+          Comparte las fiestas, celebraciones, música,
+          danzas y tradiciones de nuestras comunidades.
+        </p>
+      </div>
+
+    </article>
+
+  </section>
+
+  <!-- INVITACIÓN -->
+  <section class="visit-cta">
+
+    <div class="container">
+
+      <p class="section-kicker">TU PRÓXIMA EXPERIENCIA</p>
+
+      <h2>¡Ven y conoce Lajas!</h2>
+
+      <p>
+        Descubre nuestra naturaleza, comparte nuestras
+        tradiciones y disfruta la hospitalidad de nuestra gente.
+      </p>
+
+      <a class="button button-gold" href="#mapa">
+        Cómo llegar →
+      </a>
+
+    </div>
+
+  </section>
+
+</main>
+
+<!-- PIE DE PÁGINA -->
+<footer class="footer">
+
+  <div class="container footer-inner">
+
+    <a class="brand" href="#inicio">
+      <span class="brand-mark">L</span>
+      <span>LAJAS <small>TURÍSTICO</small></span>
+    </a>
+
+    <p>Lajas, Chota · Cajamarca · Perú</p>
+
+    <p class="copyright">
+      © <span id="year"></span>
+      Lajas Turístico. Proyecto de promoción turística local.
+    </p>
+
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
